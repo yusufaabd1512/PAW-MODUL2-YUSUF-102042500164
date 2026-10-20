@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f3f5f7;
+    color: #1e293b;
+    font: 16px/1.6 Arial, sans-serif;
+}
+
+main {
+    max-width: 1050px;
+    margin: 40px auto;
+    padding: 28px;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1.2;
+    margin: 8px 0;
+}
+
+h2 {
+    font-size: 21px;
+    line-height: 1.3;
+    margin: 6px 0;
+}
+
+.label {
+    color: #526477;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #165b87;
+    margin-right: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d4dce3;
+}
+
+.menu a {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #9caab7;
+    border-radius: 4px;
+    font: inherit;
+    background: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button, .tombol {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-top: 18px;
+    background: #183b56;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+}
+
+button:hover, .tombol:hover {
+    background: #122b3f;
+}
+
+.pencarian {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.pencarian input, .pencarian select {
+    max-width: 280px;
+}
+
+.pencarian button {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border: 1px solid #d4dce3;
+}
+
+table th, table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #d4dce3;
+    text-align: left;
+}
+
+table th {
+    background: #e9eff5;
+    font-weight: bold;
+    color: #183b56;
+}
+
+table tr:hover {
+    background: #f8fafc;
+}
+
+.daftar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 24px;
+}
+
+article {
+    background: white;
+    border: 1px solid #d4dce3;
+    padding: 22px;
+}
+
+.pesan {
+    border-left: 4px solid #165b87;
+    padding: 12px;
+    background: white;
+    margin-bottom: 16px;
+}
+
+.kesalahan {
+    border-left: 4px solid #a32f2f;
+    padding: 14px;
+    background: white;
+    margin-bottom: 16px;
+}
+
+.pesan-field {
+    color: #a32f2f;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.bahaya {
+    background: #a32f2f;
+}
+
+.bahaya:hover {
+    background: #822222;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 14px;
+    color: #526477;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+dd {
+    margin: 4px 0 16px 0;
+    font-size: 16px;
+}
+
+.ringkasan-box {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.ringkasan-item {
+    background: white;
+    border: 1px solid #d4dce3;
+    padding: 16px 24px;
+    border-radius: 4px;
+    min-width: 130px;
+    text-align: center;
+}
+
+.ringkasan-item .angka {
+    font-size: 32px;
+    font-weight: bold;
+    color: #183b56;
+}
+
+.ringkasan-item .teks {
+    font-size: 14px;
+    color: #526477;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #e2e8f0;
+    color: #334155;
+}
